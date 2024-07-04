@@ -1,0 +1,72 @@
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+# This workflow will build, test, and package a WPF or Windows Forms desktop application
+# built on .NET Core.
+# To learn how to migrate your existing application to .NET Core,
+# refer to https://docs.microsoft.com/en-us/dotnet/desktop-wpf/migration/convert-project-from-net-framework
+
+# **Important Note:** This workflow specifically targets Windows runners
+# and assumes a project structure without a Windows Application Packaging (.wapproj) project.
+# If your project structure or target platform differs, you'll need to modify the workflow steps accordingly.
+
+name: .NET Core Desktop
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+
+    strategy:
+      matrix:
+        configuration: [Debug, Release]
+
+    runs-on: windows-latest
+
+    env:
+      # Replace with your solution name
+      Solution_Name: api.sln
+
+      # Replace with the path to your test project (if applicable)
+      Test_Project_Path: api.Tests/api.Tests.csproj  # Optional
+
+      # **Removed**: Wap_Project_Directory and Wap_Project_Path are not applicable for projects without a .wapproj
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Install .NET Core
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 6.0.x  # Adjust if needed (check compatibility with your project)
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Run unit tests (if applicable)
+        run: dotnet test $env:Test_Project_Path  # Skip if no test project
+        if: ${{ exists(env.Test_Project_Path) }}  # Only run if Test_Project_Path is defined
+
+      - name: Restore the application
+        run: msbuild $env:Solution_Name /t:Restore /p:Configuration=$env:Configuration
+        env:
+          Configuration: ${{ matrix.configuration }}
+
+      # **Signing and Packaging (not applicable without a .wapproj):**
+      # Refer to https://github.com/microsoft/github-actions-for-desktop-apps#signing
+      # for detailed guidance on signing certificates.
+
+      - name: Upload build artifacts (if applicable)
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ env.Solution_Name }}-$(Build.Configuration)
+          path: ${{ runner.workspace }}\bin\$(Configuration)\**  # Adjust path based on your project's output location
