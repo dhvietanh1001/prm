@@ -7,19 +7,19 @@
       "RelativeMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|c:\\users\\vieta\\onedrive\\m\u00E1y t\u00EDnh\\new folder\\api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|C:\\Users\\vieta\\OneDrive\\M\u00E1y t\u00EDnh\\New folder\\api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|solutionrelative:api\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|c:\\users\\vieta\\onedrive\\m\u00E1y t\u00EDnh\\new folder\\api\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|C:\\Users\\vieta\\OneDrive\\M\u00E1y t\u00EDnh\\New folder\\api\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|solutionrelative:api\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|c:\\users\\vieta\\onedrive\\m\u00E1y t\u00EDnh\\new folder\\api\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|C:\\Users\\vieta\\OneDrive\\M\u00E1y t\u00EDnh\\New folder\\api\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|solutionrelative:api\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|c:\\users\\vieta\\onedrive\\m\u00E1y t\u00EDnh\\new folder\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|C:\\Users\\vieta\\OneDrive\\M\u00E1y t\u00EDnh\\New folder\\api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{81491FE1-0B17-479C-9C22-9F022038F61A}|api\\api.csproj|solutionrelative:api\\api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
@@ -55,8 +55,7 @@
               "RelativeToolTip": "api\\Repository\\UserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACwAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T11:51:06.906Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T11:51:06.906Z"
             },
             {
               "$type": "Document",
@@ -68,8 +67,7 @@
               "RelativeToolTip": "api\\Model\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T11:49:44.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T11:49:44.572Z"
             },
             {
               "$type": "Document",
@@ -81,8 +79,7 @@
               "RelativeToolTip": "api\\api.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-04T11:49:17.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T11:49:17.91Z"
             },
             {
               "$type": "Document",
@@ -94,8 +91,7 @@
               "RelativeToolTip": "api\\Controllers\\HomeController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T11:47:31.852Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T11:47:31.852Z"
             }
           ]
         }
